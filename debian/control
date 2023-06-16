@@ -1,0 +1,12 @@
+Source: ros-noetic-hri-actions-msgs
+Section: misc
+Priority: optional
+Maintainer: Séverin Lemaignan <severin.lemaignan@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-hri-actions-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib-msgs, ros-noetic-geometry-msgs
+Description: Action definitions useful for Human-Robot Interaction
