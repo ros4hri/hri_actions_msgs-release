@@ -2,6 +2,33 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.0 (2024-08-01)
+------------------
+* add closed caption message
+* Contributors: Luka Juricic
+
+2.1.0 (2024-07-30)
+------------------
+* add wakeup and suspend intents
+* add copyright to CMakeLists
+* [doc] add reference to ROS 1 in README
+* Contributors: Luka Juricic, Séverin Lemaignan
+
+2.0.1 (2023-11-13)
+------------------
+* add missing dep on action_msgs
+* Contributors: Séverin Lemaignan
+
+2.0.0 (2023-11-13)
+------------------
+* porting to humble
+* Contributors: Luka Juricic
+
+0.4.3 (2023-06-30)
+------------------
+* add action to control face/eyes overlays
+* Contributors: Séverin Lemaignan
+
 0.4.2 (2023-06-16)
 ------------------
 * Revert "add actions to start/stop ASR"

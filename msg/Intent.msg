@@ -61,6 +61,9 @@ string PRESENT_CONTENT = __intent_present_content__
 string PERFORM_MOTION = __intent_perform_motion__
 string START_ACTIVITY = __intent_start_activity__
 string STOP_ACTIVITY = __intent_stop_activity__
+string WAKEUP = __intent_wakeup__
+string SUSPEND = __intent_suspend__
+
 
 ##########################################################################
 #  Intent data
@@ -103,6 +106,10 @@ string STOP_ACTIVITY = __intent_stop_activity__
 # | `START_ACTIVITY` | start a scripted behaviour/activity                                         | - `object` (the name of the activity)                       | - any additional parameter required to start the activity                 |
 # +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
 # | `STOP_ACTIVITY`  | request cancelation of an activity                                          |                                                             | - `object` (the name of the activity. If unset, current main activity)    |
+# +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
+# | `WAKEUP`         | request reactivation of the system                                          |                                                             |                                                                           |
+# +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
+# | `SUSPEND`        | request suspension of the system                                            |                                                             |                                                                           |
 # +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
 # .. END_INTENTS_TABLE
 #
