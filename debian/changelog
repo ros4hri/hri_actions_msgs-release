@@ -1,0 +1,140 @@
+ros-jazzy-hri-actions-msgs (2.5.0-1noble) noble; urgency=high
+
+  * ament_auto_package now requires USE_SCOPED_HEADER_INSTALL_DIR
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Wed, 10 Sep 2025 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (2.4.2-1noble) noble; urgency=high
+
+  * add back msg mistakenly removed in previous commit
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Thu, 31 Oct 2024 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (2.4.1-1noble) noble; urgency=high
+
+  * add presentation action
+  * Contributors: Sara Cooper
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Thu, 31 Oct 2024 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (2.4.0-1noble) noble; urgency=high
+
+  * New message and service to get the list of activities available/running in the welcome demo
+  * Contributors: Raquel Ros
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Thu, 31 Oct 2024 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (2.3.0-1noble) noble; urgency=high
+
+  * add raw user input intent
+  * Contributors: Luka Juricic
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Tue, 15 Oct 2024 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (2.2.0-1noble) noble; urgency=high
+
+  * add closed caption message
+  * Contributors: Luka Juricic
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Thu, 01 Aug 2024 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (2.1.0-1noble) noble; urgency=high
+
+  * add wakeup and suspend intents
+  * add copyright to CMakeLists
+  * [doc] add reference to ROS 1 in README
+  * Contributors: Luka Juricic, Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Tue, 30 Jul 2024 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (2.0.1-1noble) noble; urgency=high
+
+  * add missing dep on action_msgs
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Mon, 13 Nov 2023 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (2.0.0-1noble) noble; urgency=high
+
+  * porting to humble
+  * Contributors: Luka Juricic
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Mon, 13 Nov 2023 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (0.4.3-1noble) noble; urgency=high
+
+  * add action to control face/eyes overlays
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Fri, 30 Jun 2023 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (0.4.2-1noble) noble; urgency=high
+
+  * Revert "add actions to start/stop ASR"
+    This reverts commit bbd9646771a5ba4ac6e680c1c2e036f4b4730fa6.
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Fri, 16 Jun 2023 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (0.4.1-1noble) noble; urgency=high
+
+  * add actions to start/stop ASR
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Tue, 17 Jan 2023 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (0.4.0-1noble) noble; urgency=high
+
+  * string constants should not use quotes
+    While here:
+    - remove a spurious comment on one of the comments lines
+    - prefix moadlity string constants with __modality_ for consistency
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Tue, 03 Jan 2023 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (0.3.2-1noble) noble; urgency=high
+
+  * Simple action to control (start/stop) applications
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Mon, 05 Dec 2022 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (0.3.1-1noble) noble; urgency=high
+
+  * Intent.msg: rename the field 'action' to 'intent' to avoid confusion
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Mon, 05 Dec 2022 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (0.3.0-1noble) noble; urgency=high
+
+  * add intents via Intent.msg
+    'Intents' represents actions that a user (or sometimes, the robot
+    itself) wants to be performed by the robot.
+    They are used to decouple the user intent perception from the robot
+    controller.
+    The Intent.msg specifies an abstract model for these intents.
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Fri, 02 Dec 2022 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (0.2.0-1noble) noble; urgency=high
+
+  * add LookAtWithStyle.msg
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Thu, 18 Aug 2022 00:00:00 -0000
+
+ros-jazzy-hri-actions-msgs (0.1.0-1noble) noble; urgency=high
+
+  * stamp PointTrajectory
+  * add PointTrajectoryAction
+  * add gaze action
+  * Contributors: Sara Cooper, Luca Lach
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Tue, 28 Jun 2022 00:00:00 -0000
+
+
