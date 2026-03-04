@@ -2,6 +2,31 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.5.0 (2025-09-10)
+------------------
+* ament_auto_package now requires USE_SCOPED_HEADER_INSTALL_DIR
+* Contributors: Séverin Lemaignan
+
+2.4.2 (2024-10-31)
+------------------
+* add back msg mistakenly removed in previous commit
+* Contributors: Séverin Lemaignan
+
+2.4.1 (2024-10-31)
+------------------
+* add presentation action
+* Contributors: Sara Cooper
+
+2.4.0 (2024-10-31)
+------------------
+* New message and service to get the list of activities available/running in the welcome demo
+* Contributors: Raquel Ros
+
+2.3.0 (2024-10-15)
+------------------
+* add raw user input intent
+* Contributors: Luka Juricic
+
 2.2.0 (2024-08-01)
 ------------------
 * add closed caption message
